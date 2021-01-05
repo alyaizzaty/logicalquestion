@@ -1,4 +1,4 @@
-agentCode = input('Enter Agent Code between 101-999 : ')
+agentCode = input('Enter Agent Code between 101-999 (if any) : ')
 seniorctzn = input('Senior Citizen? [Yes/No] : ')
 newCust = input('New Customer? [Yes/No] : ')
 
