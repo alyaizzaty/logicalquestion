@@ -24,10 +24,10 @@ else:
 if (agentCode is not ""):
     print("https://somecoolcompany.com/buy?agentCode={" + agentCode +
           "}&preferredAgent={"+PreferredAgent.lower()+
-          "}&agentType={" + agentType + "}")
+          "}&agentType={" + agentType + "}" + "&agentName={" + agentName.lower() + "}")
 else:
     print("https://somecoolcompany.com/buy?preferredAgent={"+PreferredAgent.lower()+
-          "}&agentType={" + agentType + "}")
+          "}&agentType={" + agentType + "}" + "&agentName={" + agentName.lower() + "}")
     
 
 
